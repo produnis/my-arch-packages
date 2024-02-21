@@ -1,8 +1,13 @@
 # my-arch-packages
-manage a list of your favourite arch and aur packages and install them if needed. All information is saved to a local `sqlite3` database file.
+`my-arch-packages` is a tool designed to manage a list of your favorite Arch Linux and AUR (Arch User Repository) packages and install them as needed. It operates by storing all relevant information in a local `sqlite3` database file.
+
+## Purpose
+
+The primary aim of this script is to streamline the process of installing your preferred packages following a fresh installation of Arch Linux. By maintaining a curated list of packages in the database file, users can effortlessly retrieve installation commands for both pacman (Arch's package manager) and yay (AUR helper) with a simple command.
 
 
 ## Installation
+To utilize my-arch-packages, follow these steps:
 
 - Open `my-arch-packages.py` in a text editor and change the path to the database to your setting.
 - make it executable (e.g. `chmod +x my-arch-packages.py`)
@@ -18,7 +23,7 @@ manage a list of your favourite arch and aur packages and install them if needed
 | Option  | Description |
 |---|---|
 | `-h`, `--help`   | show this help message and exit |
-| `-a`, `--add ADD` | add package to database    |
+| `-a`, `--add` | add package to database    |
 | `-d`, `--delete` | delete package from database |
 |`-p`, `--print` | print intsall command |
 
