@@ -95,8 +95,8 @@ def check_package(package_name):
 # Print list
 #-----------
 if args.print == True:
-	paketliste = "pacman -S "
-	aurliste = "yay -S "
+	paketliste = "pacman -S --needed "
+	aurliste = "yay -S --needed "
 	# get all database entries and sort them by categories
 	cur = conn.cursor()
 	cur.execute("SELECT * FROM archpakete ORDER BY paket ASC")
