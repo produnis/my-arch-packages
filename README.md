@@ -3,7 +3,7 @@
 
 ## Purpose
 
-The primary aim of this script is to streamline the process of installing your preferred packages following a fresh installation of Arch Linux. By maintaining a curated list of packages in the database file, users can effortlessly retrieve installation commands for both pacman (Arch's package manager) and yay (AUR helper) with a simple command.
+The primary aim of this script is to streamline the process of installing your preferred packages following a fresh installation of Arch Linux. By maintaining a curated list of packages in the database file, users can effortlessly retrieve installation commands for both `pacman` (Arch's package manager) and `yay` (AUR helper) with a simple command.
 
 
 ## Installation
